@@ -1,0 +1,21 @@
+{
+  "name": "motorola-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch",
+    "prod": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --minify"
+  },
+  "author": "CrisHood",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.18"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.4.0",
+    "tw-elements": "^1.0.0-alpha10"
+  }
+}

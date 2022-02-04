@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/tailwind.css">
+    <link rel="stylesheet" href="../public/css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <link rel="stylesheet" href="../public/css/responsive-nuke.css">
+    <title>Landing Moto</title>
+</head>
+<body>
+    <nav id="navbar" class="w-full px-0.5 py-4 flex items-center  justify-around shadow-md ">
+        <a href="">
+            <img src="./img/logo.svg" width="" alt="">
+        </a>
+        <a href="" class="lg:hidden">
+            <img src="./img/menu.svg" width="22px"alt="">
+        </a>
+        <div class="hidden md:block lg:flex space-x-4 items-center ">
+            <a href="" class="text-secondary text-xs">Government Grants</a>
+            <button class="bg-black uppercase text-white rounded-full p-2 text-xs ">Chat with us</button>
+        </div>
+        
+    </nav>
+    <main id="main" class="w-full bg-hero bg-cover flex flex-col md:flex-row md:justify-center md:space-x-0 md:py-8">
+        <div id="main-copy" class="flex-col space-y-4 px-4 py-8 md:w-5/12">
+            <div>
+                <h1 class="text-4xl uppercase">Government Grants & Grants Assistance With Motorola Solutions</h1>
+            </div>
+            <div>
+                <p class="text-white">In partnership with the grant experts at Lexipol, Motorola Solutions offers free grant assistance for your organization from radios to video, software to cybersecurity, we’ve got you covered.</p>
+            </div>
+            <div>
+                <button class="bg-white uppercase text-black rounded-full py-2 px-4 text-sm">See recent grants</button>
+            </div>
+        </div>
+        <div id="up-to-date" class="bg-black/70  flex-col space-y-2 px-4 py-8  text-center md:w-3/12 ">
+            <h3 class="uppercase text-primary text-2xl">stay up to date on grants</h3>
+            <p class="text-white text-xs">Grant assistance programs are only <br> available to US customers</p>
+            <div id="up-to-date-form" class="text-left md:grid md:grid-cols-2 md:justify-items-center">
+                <div class="md:w-10/12">
+                    <span class="text-white text-xs">First name</span>
+                    <input type="text" class="w-full">
+                </div>
+                
+                <div class="md:w-10/12">
+                    <span class="text-white text-xs">Last name</span>
+                    <input type="text" class="w-full">
+                </div>
+                
+                <div class="md:w-10/12">
+                    <span class="text-white text-xs">Email</span>
+                    <input type="text" class="w-full">
+                </div>
+                
+                <div class="md:w-10/12">
+                    <span class="text-white text-xs">Organization Name</span>
+                    <input type="text" class="w-full">
+                </div>
+                
+                <div class="md:w-10/12">
+                    <span class="teclass="md:w-10/12"xt-white text-xs">Industry</span>
+                    <select type="text" class="w-full"></select>
+                </div>
+                
+                <div class="md:w-10/12">
+                    <span class="text-white text-xs">Country</span>
+                    <input type="text" class="w-full mb-2">
+                </div>
+                <div class="check-news flex space-x-4 md:col-span-2">
+                    <input type="checkbox" checked>
+                    <span class="text-white text-xs">Yes, I would like to receive updates, product news and promotional materials from Motorola Solutions. Please review our <a class="text-primary"> privacy statement</a> for more details.</span>
+                </div>
+                <div class=" text-center mt-4 md:col-span-2">
+                    <button class="w-full  bg-white uppercase text-black rounded-full py-2 px-4 text-sm">Request a demo</button>
+                </div>
+            </div>
+        </div>
+        
+        
+    </main>
+    <div id="cards" class="w-full h-full flex-col bg-assistancebg bg-cover">
+        <div class="flex-col text-center px-4 py-8 space-y-2">
+            <h3 class="text-3xl">Grant Assistance By Products</h3>
+            <p class="text-base">Get help with grant funding for your specific product needs. Browse grant assistance programs by products.</p>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide relative" data-bs-ride="carousel">
+            <div class="carousel-inner relative w-full overflow-hidden md:grid md:grid-cols-4 md:px-16">
+              <div class="carousel-item active relative float-left w-full p-4 md:block">
+                <div class="slide-01 flex-col p-8">
+                    <div class="top-slider shadow-md bg-gray-200 flex justify-center content-center p-8">
+                        <img src="./img/assistance-01.png" alt="">
+                    </div>
+                    <div class="bottom-slider bg-white text-center flex-col justify-center content-center p-6 space-y-4 h-80">
+                        <p class="text-xl text-grey">
+                            Mission-Critical Communications
+                        </p>
+                        <ul class="text-sm">
+                            <li> P25 Police Radios</li>
+                            <li>P25 Fire Radios</li>
+                            <li>Education Portable Radios</li>
+                            <li>Professional Portable Radios</li>
+                            <li>Healthcare Portable Radios</li>
+                            <li>Fire Pager</li>
+                            <li>Fire Station Alerting</li>
+                            <li>Fire Personnel Accountability</li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item relative float-left w-full  p-4 md:block">
+                <div class="slide-02 flex-col p-8">
+                    <div class="top-slider shadow-md bg-gray-200 flex justify-center content-center p-8">
+                        <img src="./img/assistance-02.png" alt="">
+                    </div>
+                    <div class="bottom-slider bg-white text-center flex-col justify-center content-center p-6 space-y-4 h-80">
+                        <p class="text-xl text-grey">
+                            Video Security & Access Control
+                        </p>
+                        <ul class="text-sm">
+                            <li>Police Body-Worn Cameras</li>
+                            <li>Police License Plate Readers</li>
+                            <li>Police In Car Video</li>
+                            <li>Police Video Surveillance</li>
+                            <li>Healthcare Video Security/li>
+                            <li>Healthcare Access Control</li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item relative float-left w-full  p-4 md:block">
+                <div class="slide-03 flex-col p-8">
+                    <div class="top-slider shadow-md bg-gray-200 flex justify-center content-center p-8">
+                        <img src="./img/assistance-03.png" alt="">
+                    </div>
+                    <div class="bottom-slider bg-white text-center flex-col justify-center content-center p-6 space-y-4 h-80">
+                        <p class="text-xl text-grey">
+                            Command Center Software
+                        </p>
+                        <ul class="text-sm">
+                            <li> P25 Police Radios</li>
+                            <li>P25 Fire Radios</li>
+                            <li>Education Portable Radios</li>
+                            <li>Professional Portable Radios</li>
+                            <li>Healthcare Portable Radios</li>
+                            <li>Fire Pager</li>
+                            <li>Fire Station Alerting</li>
+                            <li>Fire Personnel Accountability</li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item relative float-left w-full  p-4 md:block">
+                <div class="slide-04 flex-col p-8">
+                    <div class="top-slider shadow-md bg-gray-200 flex justify-center content-center p-8">
+                        <img src="./img/assistance-04.png" alt="">
+                    </div>
+                    <div class="bottom-slider bg-white text-center flex-col justify-center content-center p-6 space-y-4 h-80">
+                        <p class="text-xl text-grey">
+                            Cybersecurity Services
+                        </p>
+                        <ul class="text-sm">
+                            <li>Cybersecurity Advisory Services</li>
+                            <li>Managed Security Services</li>
+                            <li>Cybersecurity Training</li>
+                            <li>Security Patching</li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="md:hidden carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+            <img src="./img/prev.svg" alt="">
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="md:hidden carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+            <img src="./img/next.svg" alt="">
+              
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </div>
+    <div id="areas" class="w-full h-full flex-col bg-secondary text-white space-y-8 p-8 md:grid md:grid-cols-3  md:px-24 md:gap-16">
+        <div class="flex-col text-center space-y-2 md:col-span-3">
+            <h3 class="text-3xl">Grant Assistance By Industry</h3>
+            <p>Get help with grant funding for your specific product needs. Browse grant assistance programs by industry.</p>
+        </div>
+       
+        <div class="industry-01 text-left flex-col space-y-2">
+            <div class="icon-industry flex space-x-2 items-center">
+                <img src="./img/industry-01.png" alt="">
+                <span class="font-bold">Cybersecurity Government Grants</span>
+            </div>
+            <p class="text-base">Cybersecurity grants are available to help upgrade your local government, technology and IT technology.</p>
+            <button class="bg-white uppercase text-black rounded-full py-2 px-4 text-sm">Learn more</button>
+        </div>
+        <div class="industry-02 text-left flex-col space-y-2">
+            <div class="icon-industry flex space-x-2 items-center">
+                <img src="./img/industry-02.png" alt="">
+                <span class="font-bold">Education Government Grants</span>
+            </div>
+            <p class="text-base">Access the technology your school needs to keep everyone safe. Leverage a private network to ensure learning extends on and off campus.</p>
+            <button class="bg-white uppercase text-black rounded-full py-2 px-4 text-sm">Learn more</button>
+        </div>
+        <div class="industry-03 text-left flex-col space-y-2">
+            <div class="icon-industry flex space-x-2 items-center">
+                <img src="./img/industry-03.png" alt="">
+                <span class="font-bold">Fire & Emergency Medical Services Grants</span>
+            </div>
+            <p class="text-base">Grant programs are available to help fire and emergency services professionals stay on top of the technology changes.</p>
+            <button class="bg-white uppercase text-black rounded-full py-2 px-4 text-sm">Learn more</button>
+        </div>
+        <div class="industry-04 text-left flex-col space-y-2">
+            <div class="icon-industry flex space-x-2 items-center">
+                <img src="./img/industry-04.png" alt="">
+                <span class="font-bold">Government Healthcare Grants</span>
+            </div>
+            <p class="text-base">Healthcare grants are available to help your critical medical infrastructure conduct safe and efficient operations in emergencies.</p>
+            <button class="bg-white uppercase text-black rounded-full py-2 px-4 text-sm">Learn more</button>
+        </div>
+        <div class="industry-05 text-left flex-col space-y-2">
+            <div class="icon-industry flex space-x-2 items-center">
+                <img src="./img/industry-05.png" alt="">
+                <span class="font-bold">Police & Law Enforcement Grants</span>
+            </div>
+            <p class="text-base">Grant programs for police and law enforcement are available to upgrade communications technology to keep your communities and officers safe.</p>
+            <button class="bg-white uppercase text-black rounded-full py-2 px-4 text-sm">Learn more</button>
+        </div>
+        <div class="industry-06 text-left flex-col space-y-2">
+            <div class="icon-industry flex space-x-2 items-center">
+                <img src="./img/industry-06.png" alt="">
+                <span class="font-bold">Port Security & Transportation Grants</span>
+            </div>
+            <p class="text-base">Port security grant programs are available to the transportation and port security industry to help keep communities productive, cleaner and safely on the move.</p>
+            <button class="bg-white uppercase text-black rounded-full px-4 py-2 text-base">Learn more</button>
+        </div>
+    </div>
+    <footer id="footer" class="bg-black text-white flex-col p-8 space-y-8 text-center items-center content-center md:grid md:grid-rows-2 md:grid-flow-col md:justify-items-center md:justify-between md:px-0"> 
+        <div class="flex justify-center">
+            <img src="./img/motorola-white.svg" alt="">
+        </div>
+        <p class="text-lgrey text-xs  md:col-span-2 md:w-8/12" style="margin-bottom: 24px;">
+            MOTOROLA, MOTO, MOTOROLA SOLUTIONS and the Stylized M Logo are trademarks or registered trademarks of Motorola Trademarks Holdings, LLC and are used under license. All other trademarks are the property of their respective owners.
+            <br>® 2022 Motorola Solutons, Inc. All right reserved.
+        </p>
+        <div class=" flex-col  justify-center space-y-8  items-center social-media" style="margin-top: 0;">
+            <p class="text-lgrey text-xs">
+                Join the conversation
+            </p>
+            <div style="margin-top:0; ">
+                <ul class="flex space-x-4 justify-center">
+                    <li><a href=""><img width="14" src="./img/facebook.svg" alt=""></a></li>
+                    <li><a href=""><img width="30" src="./img/twitter.svg" alt=""></a></li>
+                    <li><a href=""><img width="30" src="./img/linkedin.svg" alt=""></a></li>
+                    <li><a href=""><img width="30" src="./img/youtube.svg" alt=""></a></li>
+                    <li><a href=""><img width="20" src="./img/motorola-icon.svg" alt=""></a></li>
+                    <li><a href=""><img width="22" src="./img/instagram.svg" alt=""></a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>
